@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    float:left;
+    margin-bottom: 20px;;
+    width:33%;
+    position: relative;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+    
+.cont{
+    width:100%;
+    border: black solid 1px;
+    background-color: grey ;
+}
+.title{
+    width:30%;
+    height:30px;
+    position: absolute;
+    top:-1px;
+    right:-1px;
+    border:solid black 1px;
+}
+#t1{
+    background-color:pink;
+}
+#t2{
+    background-color:white;
+}
+#t3{
+    background-color:black;
+    color:white;
+}
+h1{
+    text-align: center;
+}
+
+@media (min-width:768px) and (max-width:991px){
+    div{
+        width:50%;
+    }
+    .last{
+        width:100%;
+    }
+}
+@media (max-width:767px){
+    div{
+        width:100%;
+    }
+}
