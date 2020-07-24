@@ -1,6 +1,9 @@
 *{
     color:black;
 }
+#header-nav{
+    background-color: rgb(190, 189, 189);
+}
 .navbar-brand a{
     margin-top: -10px;
 }
@@ -21,8 +24,13 @@ hr{
     margin-top: 0;
     margin-bottom: 0;
 }
+#nav-list li:nth-child(1){
+    padding-top: 7.5px;
+}
 #nav-list{
     margin-bottom: 0;
+    margin-top:0;
+    background-color: white;
 }
 #rowich{
     background-color: rgb(190, 189, 189);
